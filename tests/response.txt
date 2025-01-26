@@ -1,0 +1,316 @@
+<div class="table-wrapper">
+<div class="table">
+<table class="data">
+<tbody>
+<tr>
+<th>Цифр. код</th>
+<th>Букв. код</th>
+<th>Единиц</th>
+<th>Валюта</th>
+<th>Курс</th>
+</tr>
+<tr>
+<td>036</td>
+<td>AUD</td>
+<td>1</td>
+<td>Австралийский доллар</td>
+<td>62,0633</td>
+</tr>
+<tr>
+<td>944</td>
+<td>AZN</td>
+<td>1</td>
+<td>Азербайджанский манат</td>
+<td>57,8021</td>
+</tr>
+<tr>
+<td>051</td>
+<td>AMD</td>
+<td>100</td>
+<td>Армянских драмов</td>
+<td>24,6293</td>
+</tr>
+<tr>
+<td>764</td>
+<td>THB</td>
+<td>10</td>
+<td>Батов</td>
+<td>29,0867</td>
+</tr>
+<tr>
+<td>933</td>
+<td>BYN</td>
+<td>1</td>
+<td>Белорусский рубль</td>
+<td>28,7766</td>
+</tr>
+<tr>
+<td>975</td>
+<td>BGN</td>
+<td>1</td>
+<td>Болгарский лев</td>
+<td>52,2712</td>
+</tr>
+<tr>
+<td>986</td>
+<td>BRL</td>
+<td>1</td>
+<td>Бразильский реал</td>
+<td>16,5438</td>
+</tr>
+<tr>
+<td>410</td>
+<td>KRW</td>
+<td>1000</td>
+<td>Вон</td>
+<td>68,3763</td>
+</tr>
+<tr>
+<td>344</td>
+<td>HKD</td>
+<td>1</td>
+<td>Гонконгский доллар</td>
+<td>12,6384</td>
+</tr>
+<tr>
+<td>980</td>
+<td>UAH</td>
+<td>10</td>
+<td>Гривен</td>
+<td>23,4100</td>
+</tr>
+<tr>
+<td>208</td>
+<td>DKK</td>
+<td>1</td>
+<td>Датская крона</td>
+<td>13,7031</td>
+</tr>
+<tr>
+<td>784</td>
+<td>AED</td>
+<td>1</td>
+<td>Дирхам ОАЭ</td>
+<td>26,7566</td>
+</tr>
+<tr>
+<td>840</td>
+<td>USD</td>
+<td>1</td>
+<td>Доллар США</td>
+<td>98,2636</td>
+</tr>
+<tr>
+<td>704</td>
+<td>VND</td>
+<td>10000</td>
+<td>Донгов</td>
+<td>40,3961</td>
+</tr>
+<tr>
+<td>978</td>
+<td>EUR</td>
+<td>1</td>
+<td>Евро</td>
+<td>103,1870</td>
+</tr>
+<tr>
+<td>818</td>
+<td>EGP</td>
+<td>10</td>
+<td>Египетских фунтов</td>
+<td>19,5398</td>
+</tr>
+<tr>
+<td>985</td>
+<td>PLN</td>
+<td>1</td>
+<td>Злотый</td>
+<td>24,4900</td>
+</tr>
+<tr>
+<td>392</td>
+<td>JPY</td>
+<td>100</td>
+<td>Иен</td>
+<td>62,8927</td>
+</tr>
+<tr>
+<td>356</td>
+<td>INR</td>
+<td>10</td>
+<td>Индийских рупий</td>
+<td>11,3875</td>
+</tr>
+<tr>
+<td>124</td>
+<td>CAD</td>
+<td>1</td>
+<td>Канадский доллар</td>
+<td>68,3763</td>
+</tr>
+<tr>
+<td>634</td>
+<td>QAR</td>
+<td>1</td>
+<td>Катарский риал</td>
+<td>26,9955</td>
+</tr>
+<tr>
+<td>981</td>
+<td>GEL</td>
+<td>1</td>
+<td>Лари</td>
+<td>34,3255</td>
+</tr>
+<tr>
+<td>498</td>
+<td>MDL</td>
+<td>10</td>
+<td>Молдавских леев</td>
+<td>52,7148</td>
+</tr>
+<tr>
+<td>554</td>
+<td>NZD</td>
+<td>1</td>
+<td>Новозеландский доллар</td>
+<td>55,7449</td>
+</tr>
+<tr>
+<td>934</td>
+<td>TMT</td>
+<td>1</td>
+<td>Новый туркменский манат</td>
+<td>28,0753</td>
+</tr>
+<tr>
+<td>578</td>
+<td>NOK</td>
+<td>10</td>
+<td>Норвежских крон</td>
+<td>87,1518</td>
+</tr>
+<tr>
+<td>946</td>
+<td>RON</td>
+<td>1</td>
+<td>Румынский лей</td>
+<td>20,5607</td>
+</tr>
+<tr>
+<td>360</td>
+<td>IDR</td>
+<td>10000</td>
+<td>Рупий</td>
+<td>60,3733</td>
+</tr>
+<tr>
+<td>710</td>
+<td>ZAR</td>
+<td>10</td>
+<td>Рэндов</td>
+<td>53,6614</td>
+</tr>
+<tr>
+<td>960</td>
+<td>XDR</td>
+<td>1</td>
+<td>СДР (специальные права заимствования)</td>
+<td>128,0611</td>
+</tr>
+<tr>
+<td>941</td>
+<td>RSD</td>
+<td>100</td>
+<td>Сербских динаров</td>
+<td>87,7198</td>
+</tr>
+<tr>
+<td>702</td>
+<td>SGD</td>
+<td>1</td>
+<td>Сингапурский доллар</td>
+<td>72,7879</td>
+</tr>
+<tr>
+<td>417</td>
+<td>KGS</td>
+<td>10</td>
+<td>Сомов</td>
+<td>11,2365</td>
+</tr>
+<tr>
+<td>972</td>
+<td>TJS</td>
+<td>10</td>
+<td>Сомони</td>
+<td>89,7630</td>
+</tr>
+<tr>
+<td>398</td>
+<td>KZT</td>
+<td>100</td>
+<td>Тенге</td>
+<td>18,8093</td>
+</tr>
+<tr>
+<td>949</td>
+<td>TRY</td>
+<td>10</td>
+<td>Турецких лир</td>
+<td>27,5839</td>
+</tr>
+<tr>
+<td>860</td>
+<td>UZS</td>
+<td>10000</td>
+<td>Узбекских сумов</td>
+<td>75,7089</td>
+</tr>
+<tr>
+<td>348</td>
+<td>HUF</td>
+<td>100</td>
+<td>Форинтов</td>
+<td>25,1984</td>
+</tr>
+<tr>
+<td>826</td>
+<td>GBP</td>
+<td>1</td>
+<td>Фунт стерлингов</td>
+<td>121,1001</td>
+</tr>
+<tr>
+<td>203</td>
+<td>CZK</td>
+<td>10</td>
+<td>Чешских крон</td>
+<td>40,6485</td>
+</tr>
+<tr>
+<td>752</td>
+<td>SEK</td>
+<td>10</td>
+<td>Шведских крон</td>
+<td>89,1429</td>
+</tr>
+<tr>
+<td>756</td>
+<td>CHF</td>
+<td>1</td>
+<td>Швейцарский франк</td>
+<td>108,3153</td>
+</tr>
+<tr>
+<td>156</td>
+<td>CNY</td>
+<td>1</td>
+<td>Юань</td>
+<td>13,5101</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
