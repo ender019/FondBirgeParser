@@ -12,9 +12,7 @@ class CriptoParser:
     def get_request(self, p: int = 1):
         headers = {"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
         session = rq.Session()
-        r = rq.get(url=self.__href, headers=headers)
-        # print(r.headers)
-        # print(r.text)
+        r = session.get(url=self.__href, headers=headers)
         if r.status_code != 200:
             logging.error(f"can`t connect to cripto, status code is {r.status_code}")
         return bs(r.text, "html.parser")
@@ -30,21 +28,11 @@ class CriptoParser:
     def parse(self) -> dict[str, float] | None:
         crypto = {}
         data = self.get_request()
-        data = data.find_all("button")
-        logging.debug(f"crypto parse: {data}")
-        if len(data)>3:
-            kol = int(data[-2].text)
-        else:
-            logging.warning("connection blocked")
-            return None
-        try:
-            for i in range(kol):
-                data = self.get_request(i).find_all("div", {"class": "css-1ydqfmf"})
-                for el in data:
-                    name = el.find("div", {"class": "subtitle3 text-t-primary css-vurnku"})
-                    cost = el.find("div", {"class": "body2 items-center css-18yakpx"})
-                    crypto[name.text] = self.get_curs(cost) * self.__usdc
-        except Exception as e:
-            crypto = None
-            logging.error(f"crypto parse error:\n\t{e}")
+        tr = data.find("table").find_all("tr")
+        td = [el.find_all("td")[2:4] for el in tr]
+        for el in td:
+            if len(el) < 2: continue
+            name = el[0].text
+            cost = float(el[1].text.replace(".", "").replace(",","."))
+            crypto[name] = self.__usdc * cost
         return crypto
